@@ -32,7 +32,6 @@
         <span class="text-danger">@error('name') {{ $message }} @enderror</span>
         <input type="password" placeholder="Password" class="input-field" name="password">
         <span class="text-danger">@error('password') {{ $message }} @enderror</span>
-        <input type="file" name="profile_picture" accept="image/*">
         <div class="form-actions">
           <button type="submit" class="btn-next">Next</button>
           <!-- <a href="#" class="forgot-password">Forgot Password?</a> -->

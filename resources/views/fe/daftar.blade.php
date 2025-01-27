@@ -51,7 +51,6 @@
     <div class="Button">
         <div class="btn-daftar">
             <a href="#" class="Daftar">Daftar Cepat</a>
-            <img class="vector" src="/img/Vector.png" alt="">
         </div>
     </div>
 </div>

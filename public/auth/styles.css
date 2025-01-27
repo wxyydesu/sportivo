@@ -33,36 +33,40 @@
   }
   
 
-  
+
   .user-info {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.profile-img {
-    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 .user-name {
-    font-size: 1rem;
-    color: white;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .btn-logout {
-    background: #ff4500;
-    color: white;
+    background-color: transparent;
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    color: #fff;
     cursor: pointer;
+    font-size: 0.9rem;
 }
+
 
 .btn-logout:hover {
     background: #e03e00;
 }
-  
-
 
   .logo {
     color: white;
