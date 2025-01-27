@@ -16,11 +16,15 @@
                 <!-- Tampilkan gambar profil default atau gambar yang diupload -->
                 <img src="{{asset('/img/default-profile.jpg')}}" alt="Profile Picture" class="profile-img" width="30" height="30">
                 <span class="user-name">{{ $user->name }}</span>
-                <!-- Tombol logout -->
-                <form action="{{route('logout')}}" method="POST">
-                    @csrf
-                    <button type="submit" class="btn-logout">Logout</button>
-                </form>
+                <!-- Tombol logout dengan <ul> dan <li> -->
+                <ul class="logout-menu">
+                    <li>
+                        <form action="{{route('logout')}}" method="POST">
+                            @csrf
+                            <button type="submit" class="btn-logout">Logout</button>
+                        </form>
+                    </li>
+                </ul>
             @else
                 <!-- Tautan Login jika pengguna belum login -->
                 <div class="auth-buttons">

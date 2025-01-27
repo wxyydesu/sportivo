@@ -55,12 +55,24 @@
     border: 2px solid #fff;
 }
 
+.logout-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logout-menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .btn-logout {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 
