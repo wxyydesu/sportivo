@@ -7,18 +7,20 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: url(/img/bakcground-auth-update.png) no-repeat center center/cover;
+    background: url(/img/bakcground-auth-update.png) no-repeat center center / cover;
     height: 100vh;
+    margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: #fff;
-    font-size: 1rem;
+    align-items: center;
   }
   
   .container {
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
   }
   
   .login-box {
@@ -30,7 +32,41 @@
     max-width: 100%;
   }
   
+
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 1rem;
+    color: white;
+}
+
+.btn-logout {
+    background: #ff4500;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background: #e03e00;
+}
+  
+
+
   .logo {
+    color: white;
+    text-align: center;
     font-family: "Zen Tokyo Zoo", serif;
     font-weight: 400;
     font-style: normal;
@@ -40,6 +76,8 @@
   }
   
   .welcome-text {
+    text-align: center;
+    color: white;
     font-size: 1rem;
     margin-bottom: 1.25rem;
   }
@@ -104,6 +142,11 @@
     display: flex;
     gap: 0.5rem;
   }
+
+  .auth-links a {
+    color: white;
+    text-decoration: none;
+  }
   
   .auth-button {
     background: transparent;
@@ -148,7 +191,7 @@
       font-size: 0.875rem;
     }
   
-    .logo {
+    .logoT {
       font-size: 1.5rem;
     }
   }
